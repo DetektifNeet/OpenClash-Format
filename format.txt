@@ -1,0 +1,84 @@
+- name: Udemy
+  server: udemy.com
+  type: vmess
+  port: 443
+  uuid: d441dfbc-f3e3-4c2d-8c38-1674affbdbb5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-qword.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: id-qword.sshpremium.my.id
+  udp: true
+
+- name: Midtrans
+  server: midtrans.com
+  type: vmess
+  port: 443
+  uuid: d441dfbc-f3e3-4c2d-8c38-1674affbdbb5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-qword.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: id-qword.sshpremium.my.id
+  udp: true
+
+- name: Tawk
+  server: www.tawk.to
+  type: vmess
+  port: 443
+  uuid: d441dfbc-f3e3-4c2d-8c38-1674affbdbb5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-qword.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: id-qword.sshpremium.my.id
+  udp: true
+
+- name: Academy
+  server: skillacademy.com
+  type: vmess
+  port: 443
+  uuid: d441dfbc-f3e3-4c2d-8c38-1674affbdbb5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-qword.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: id-qword.sshpremium.my.id
+  udp: true
+
+- name: 104.16.86.20
+  server: 104.16.86.20
+  type: vmess
+  port: 443
+  uuid: d441dfbc-f3e3-4c2d-8c38-1674affbdbb5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-qword.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: id-qword.sshpremium.my.id
+  udp: true
